@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0328/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0328/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 懸解錄
+  date: '2015-08-29 00:56:10.289461'
+  source:
+    repository: kanripo
+    path: KR5c0328
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0328_000-ZTDZ.yaml, hash: 'sha256:366c8edb135b5cc51691ec52d5b47b4d3e32946326860396af151929da08c2d3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0328_000-ZTDZ.markers.yaml, hash: 'sha256:35414e7e61795b1cfb02579c9ed2194de68b894af7332487c7284459bd79884e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0328_SJB_000-190315c
+    span:
+    - body
+    - 0
+    - 424
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8588665fbc0b9817982982eca1c5f8d9750e5799e58b06000e1afb16bde7a6c5

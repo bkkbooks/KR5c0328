@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0328/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0328/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 懸解錄
+  date: '2015-08-29 00:56:10.289461'
+  source:
+    repository: kanripo
+    path: KR5c0328
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0328_000-HFL.yaml, hash: 'sha256:f914b8869cf5c18d10ed141a39be7746cc9b8d307197acb9fd69731793537b43'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0328_000-HFL.markers.yaml, hash: 'sha256:d3dc610e36186483081a5d3d9a7a698fd87c14d5b2851f782fbf91bd012bc8a4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0328_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 424
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:094cf7944081d74697afa1ee6f49df0be582058c4d25ca6d8458fc6cc88f49e5
